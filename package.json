@@ -1,0 +1,23 @@
+{
+  "name": "page-alert",
+  "version": "1.0.0",
+  "description": "A work-in-progress Node.js program that checks if a website contains a particular search string and alerts you via SMS using Twilio.",
+  "main": "page-alert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidFRibeiro/page-alert.git"
+  },
+  "author": "DavidFRibeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidFRibeiro/page-alert/issues"
+  },
+  "homepage": "https://github.com/DavidFRibeiro/page-alert#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "twilio": "^2.11.1"
+  }
+}
